@@ -3,11 +3,11 @@ import Image from 'next/image'
 
 export default function Navbar() {
   return (
-    <nav className="m-4 flex justify-between text-white-50">
+    <nav className="m-4 flex justify-between self-center text-white-50">
       <Image src={Logo} alt="pigz-logo" />
       <button
         type="submit"
-        className="text-white rounded-full bg-orange-150 px-4 py-2 font-sans hover:bg-orange-200"
+        className="text-white rounded-full bg-orange-150 px-5 py-1 text-sm font-medium hover:bg-orange-200"
       >
         Já sou parceiro
       </button>
