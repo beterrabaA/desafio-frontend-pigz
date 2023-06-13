@@ -1,13 +1,13 @@
 import Logo from '../assets/Pigz Gestão - Logo.svg'
-import Image from 'next/image';
+import Image from 'next/image'
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between m-4 text-white-50">
-      <Image src={Logo} alt='pigz-logo' />
+    <nav className="m-4 flex justify-between text-white-50">
+      <Image src={Logo} alt="pigz-logo" />
       <button
         type="submit"
-        className="bg-orange-150 hover:bg-orange-200 text-white font-sans py-2 px-4 rounded-full"
+        className="text-white rounded-full bg-orange-150 px-4 py-2 font-sans hover:bg-orange-200"
       >
         Já sou parceiro
       </button>
