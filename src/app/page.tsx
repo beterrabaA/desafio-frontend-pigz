@@ -11,5 +11,5 @@ export default function Home() {
       <SecondEntry />
       <Footer />
     </>
-  )
+  );
 }

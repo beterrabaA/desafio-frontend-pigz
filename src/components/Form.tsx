@@ -25,11 +25,7 @@ export default function Form() {
         <label htmlFor="phone">Telefone</label>
         <input
           className="rounded-md border-2"
-          type="tel"
-          name="phone"
-          id="phone"
-          placeholder="(95) 99876-5432"
-        />
+          type="tel" name="phone" id="phone" placeholder="(95) 99876-5432" />
       </form>
       <p>
         Ao continuar, aceito que a Pigz entre em contato comigo por telefone,
@@ -44,3 +40,4 @@ export default function Form() {
     </div>
   )
 }
+
