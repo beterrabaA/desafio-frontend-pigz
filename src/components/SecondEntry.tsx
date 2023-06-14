@@ -8,20 +8,22 @@ export default function SecondEntry() {
     <>
       <div className="flex flex-col items-center justify-center py-2">
         <Image src={PigzPigz} alt="pigz-pigz" className="mt-[-76px]" />
-        <h1 className="w-[70%] text-center text-4xl font-bold text-black-67">
+        <h1 className="w-[70%] pt-5 text-center text-4xl font-bold text-black-67">
           Você tem um novo Pigzdido!
         </h1>
         <section className="flex flex-col items-center justify-center">
-          <div className="my-5 h-72 w-72 rounded-6xl bg-gray-50 hover:border-2 hover:border-gray-67">
+          <div className="my-5 h-72 w-72 justify-self-center rounded-6xl bg-gray-50 hover:border-2 hover:border-gray-67">
             <Image src={storeFront} alt="store-front" />
             <h1 className="font-semibold">MarkerPlace</h1>
             <p className="font-normal">Pra sua loja vender mais</p>
           </div>
           <div className="my-5 h-72 w-72 rounded-6xl bg-gray-50 hover:border-2 hover:border-gray-67">
-            <Image src={storeFront} alt="store-front" />
-            <div className="text-center">
-              <h1 className="font-semibold">É fácil e rápido</h1>
-              <p className="font-normal">Fazer um pedido no Pigz</p>
+            <div className="flex flex-col">
+              <Image src={storeFront} alt="store-front" />
+              <div className="text-center">
+                <h1 className="font-semibold">É fácil e rápido</h1>
+                <p className="font-normal">Fazer um pedido no Pigz</p>
+              </div>
             </div>
           </div>
           <div className="my-5 h-72 w-72 rounded-6xl bg-gray-50 hover:border-2 hover:border-gray-67">

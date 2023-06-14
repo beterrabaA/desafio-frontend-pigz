@@ -1,6 +1,7 @@
+'use client'
 export default function Form() {
   return (
-    <div className="flex h-140 w-full flex-col justify-between rounded-3xl bg-white-50 px-3 py-6">
+    <>
       <section>
         <h2 className="text-3xl font-semibold">Quero vender no Pigz</h2>
         <p className="mt-2 text-sm font-normal">
@@ -35,9 +36,9 @@ export default function Form() {
           <select
             name="ddd"
             id="ddd"
-            className="h-full w-1/4 rounded-2xl bg-white-60 text-sm font-light"
+            className="h-full w-1/4 rounded-2xl bg-white-60 text-center text-sm font-light text-gray-84"
           >
-            <option value="95">+95</option>
+            <option value="55">🟩+55</option>
             <option value="96">+96</option>
           </select>
           <input
@@ -53,12 +54,6 @@ export default function Form() {
           e-mail ou WhatsApp.
         </p>
       </form>
-      <button
-        type="submit"
-        className="h-12 rounded-2xl bg-orange-150 px-4 py-2 font-medium text-white-50 hover:bg-orange-200"
-      >
-        Continuar
-      </button>
-    </div>
+    </>
   )
 }
