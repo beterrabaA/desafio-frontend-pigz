@@ -1,6 +1,4 @@
 import PageForm from './PageForm'
-import Burguer from '../assets/burguer_2.png'
-import Image from 'next/image'
 
 export default function FrontEntry() {
   return (

@@ -12,7 +12,7 @@ const formPages = [
 ]
 
 export default function Form() {
-  const [page, setPage] = useState(1)
+  const [page, setPage] = useState(0)
   const nextPage = () => {
     if (page <= 1) {
       setPage(page + 1)
